@@ -1353,12 +1353,14 @@ name = "uv-test"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "arrow" },
     { name = "httpx" },
     { name = "jupyterlab" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "arrow", specifier = ">=1.4.0" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "jupyterlab", specifier = ">=4.5.3" },
 ]

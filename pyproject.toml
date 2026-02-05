@@ -5,6 +5,7 @@ description = "A test project for uv"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "arrow>=1.4.0",
     "httpx>=0.28.1",
     "jupyterlab>=4.5.3",
 ]
