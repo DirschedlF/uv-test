@@ -17,6 +17,12 @@ A Python project managed with [uv](https://docs.astral.sh/uv/) (not pip/poetry).
 - **Run a single test:** `uv run pytest test_main.py::TestSlide::test_basic_slide`
 - **Launch JupyterLab:** `uv run jupyter lab`
 
+## CI
+
+GitHub Actions runs on every push and PR to `main` (`.github/workflows/ci.yml`):
+- **lint** — `ruff check` and `ruff format --check`
+- **test** — `pytest`
+
 ## Structure
 
 - `main.py` — Application entry point
