@@ -1,7 +1,7 @@
 [project]
 name = "uv-test"
 version = "0.1.0"
-description = "Add your description here"
+description = "A test project for uv"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
