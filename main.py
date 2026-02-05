@@ -1,5 +1,9 @@
+import httpx
+
+
 def main():
-    print("Hello from uv-test!")
+    response = httpx.get("https://httpbin.org/json")
+    print(response.json())
 
 
 if __name__ == "__main__":
