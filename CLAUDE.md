@@ -11,6 +11,8 @@ A Python project managed with [uv](https://docs.astral.sh/uv/) (not pip/poetry).
 - **Install dependencies:** `uv sync`
 - **Run the app:** `uv run main.py`
 - **Add a dependency:** `uv add <package>`
+- **Lint:** `uv run ruff check`
+- **Format:** `uv run ruff format`
 - **Run all tests:** `uv run pytest`
 - **Run a single test:** `uv run pytest test_main.py::TestSlide::test_basic_slide`
 - **Launch JupyterLab:** `uv run jupyter lab`
